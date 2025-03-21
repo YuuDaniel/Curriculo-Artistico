@@ -25,7 +25,7 @@ body {
 .container {
     max-width: 800px;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.6); /* Fundo escuro transparente para destacar o texto */
+    background: rgba(95, 95, 95, 0.6); /* Fundo escuro transparente para destacar o texto */
     border-radius: 10px;
 }
 
@@ -43,7 +43,7 @@ p {
 /* Destaque das palavras coloridas */
 .highlight {
     font-weight: bold;
-    color: yellow;
+    color: palevioletred;
 }
 
 /* Botão */
@@ -61,5 +61,31 @@ p {
 
 .btn:hover {
     background: #0056b3;
+}
+
+.premio {
+    font-weight: bold;
+    color: gold;
+    cursor: pointer;
+    position: relative;
+    text-shadow: 0 0 5px gold, 0 0 10px gold;
+    transition: text-shadow 0.3s ease-in-out;
+}
+
+.premio:hover {
+    text-shadow: 0 0 10px gold, 0 0 20px gold;
+}
+
+/* Estilização do balão */
+.tooltip {
+    display: none;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
