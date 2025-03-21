@@ -87,5 +87,18 @@ p {
     white-space: nowrap;
     font-size: 14px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    max-width: 90%;
+    white-space: normal;
 }
 
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .container {
+        padding: 15px;
+    }
+}
